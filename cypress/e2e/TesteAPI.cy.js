@@ -14,6 +14,7 @@ describe('Teste API', () => {
 
       // 5 e 6. Verificar os objetos com rating maior do que 4 e exibir no console da Web. F12->CONSOLE
       TesteApi.ExibicaoDosElementosNoConsoleMaiorQue4();
+      cy.wait(5000);
     });
   });
 });

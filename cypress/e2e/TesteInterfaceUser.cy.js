@@ -26,7 +26,7 @@
 
      //3 e 4 . Aqui segue o mesmo principio da ordenação A até Z, só copiar e colar e mudar e inverter a ordem a para z
      TesteInterface.OrdenarItensZatéA();
-      
+     cy.wait(5000);
     });
 
     
