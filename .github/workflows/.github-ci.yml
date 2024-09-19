@@ -3,10 +3,10 @@ name: CI
 on:
   push:
     branches:
-      - main  # Substitua pela sua branch principal se for diferente
+      - master  # Substitua pela sua branch principal se for diferente
   pull_request:
     branches:
-      - main  # Substitua pela sua branch principal se for diferente
+      - master  # Substitua pela sua branch principal se for diferente
 
 jobs:
   test:
