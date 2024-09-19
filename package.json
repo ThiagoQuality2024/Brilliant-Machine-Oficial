@@ -1,0 +1,23 @@
+{
+  "name": "cypress-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "1- Baixar a pasta do repositorio remoto \"Projeto Brilliant Machine\" para seu computador local.\r 2- Abrir uma IDE se sua preferencia, (eu utilizei VS CODE, pois estou mais ambientado).\r 3- Dentro no Visual Code, clicar em File-> Open Folder e abrir a pasta do projeto para visualizar o codigo que está dentro da sub pasta e2e.\r 4- Ir no local do se computador onde você salvou colocou a pasta \"Projeto Brilliant Machine\", clicar na pasta e dentro da pasta abrir o GIT BASH. \r 5- Dentro do Git Bash digitar Git init para iniciar o repositorio e Git NPM para iniciar um projeto NPM.\r 6- No Git Bash digitar NPX Cypress Open e tecla enter para abrir o browser Cypress\r 7- Irá abrir o browser e vc escolhe o navegador da sua preferência. Eu escolhi o Edge para executar os testes web. Obs: Tive muitos problemas com Cash.\r 8- Dentro do browser do Cypress ,você escolhe o arquivo que quer fazer a execução. \r No caso, o desafio me deu 2 exercicios 1- Teste API e 2 - Teste de interface. Escolher um dos dois e clicar para visualizar o teste automatizado rodando.",
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "cypress-xpath": "^2.0.1",
+    "mochawesome": "^7.1.3"
+  },
+  "dependencies": {
+    "cypress-3": "file:"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
