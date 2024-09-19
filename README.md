@@ -41,5 +41,10 @@ e no teste de usuario para ficar organizado e visivel , eu inseri informações 
 9- Na seção artfacts você vai encontrar o relatorio do teste. Clicar em dowload para baixar para sua maquina e extrair o arquivo.
 10- O relatorio consiste em 2 videos. 1- video o teste der APi solicitado no arquivo do desafio. 2 video é o teste de interface do usuario que tambem foi solicitado no desafio proposto para testar meus conhecimentos.
 
-#####  Brilliant-Machine-2024
+##### ---- Page Objects ------
+1- Na pasta cypress/support eu coloquei 2 pastas.1- PageObjectsAPi (referente ao teste da api) e 2-PageObjectInterface(referenteObjetivoInterface)
+2- Deixei na classe principal de teste somente as chamadas das funcões para deixar o codigo mais limpo, nas pastas do support ficou toda a parte do codigo dos elemntos corpos da função conforme pede a ideia de PageObject.
+
+######  Brilliant-Machine-2024
 Testes Thiago Fernandes
+
