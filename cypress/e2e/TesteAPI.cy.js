@@ -11,6 +11,7 @@ describe('Teste API', () => {
 
       // 4. Fazer a contagem total dos elementos e mostrar o Console da WEB. F12->CONSOLE
       TesteApi.ContagemTotalDosElementos();
+      cy.wait(5000) // Fiz essa atualização a master. add o cy wait 5000
 
       // 5 e 6. Verificar os objetos com rating maior do que 4 e exibir no console da Web. F12->CONSOLE
       TesteApi.ExibicaoDosElementosNoConsoleMaiorQue4();
