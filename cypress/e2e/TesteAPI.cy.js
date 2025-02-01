@@ -17,7 +17,7 @@ describe('Teste API', () => {
       // 5 e 6. Verificar os objetos com rating maior do que 4 e exibir no console da Web. F12->CONSOLE
       TesteApi.ExibicaoDosElementosNoConsoleMaiorQue4();
       cy.wait(3000); //mudei para wait 300 dentro da branch thiago
-
-    });
+      cy.wait(2000); //mas um wait feito na branch thiago
+        });
   });
 });
