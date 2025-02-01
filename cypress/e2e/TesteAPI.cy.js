@@ -3,6 +3,7 @@ import PageObject from '../support/PageObjectAPI';
 describe('Teste API', () => {
   it('Passo a passo do 1 até o 6', () => {
     const TesteApi = new PageObject();
+    cy.wait(6000) // add o wait de 6000
 
     // 1. Chamar a API e verificar a resposta da API se foi 200
     TesteApi.VisitarSiteEStatusCode().then(() => {
